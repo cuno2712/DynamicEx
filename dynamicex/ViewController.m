@@ -28,7 +28,7 @@
     {
         Class class = NSClassFromString([self.text.text lowercaseString]);
         if (class == nil) {
-            self.imageview.image = [UIImage imageNamed:@"404Error-2.png"];
+            self.imageview.image = [UIImage imageNamed:@"404Error.png"];
             
         }
         else{

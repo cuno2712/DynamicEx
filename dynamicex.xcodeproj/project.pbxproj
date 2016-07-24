@@ -12,6 +12,7 @@
 		2744959C1D30F5E40040A951 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 274495971D30F5E40040A951 /* elephant.png */; };
 		2744959D1D30F5E40040A951 /* mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 274495981D30F5E40040A951 /* mouse.png */; };
 		2744959E1D30F5E40040A951 /* tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = 274495991D30F5E40040A951 /* tiger.png */; };
+		27B6E9D41D45311D003BA5BD /* 404Error.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B6E9D31D45311D003BA5BD /* 404Error.png */; };
 		27D45BE91D2ACE890050E576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D45BE81D2ACE890050E576 /* main.m */; };
 		27D45BEC1D2ACE890050E576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D45BEB1D2ACE890050E576 /* AppDelegate.m */; };
 		27D45BEF1D2ACE890050E576 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D45BEE1D2ACE890050E576 /* ViewController.m */; };
@@ -20,7 +21,6 @@
 		27D45BF71D2ACE890050E576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D45BF51D2ACE890050E576 /* LaunchScreen.storyboard */; };
 		27D45C021D2ACE890050E576 /* dynamicexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D45C011D2ACE890050E576 /* dynamicexTests.m */; };
 		27D45C0D1D2ACE890050E576 /* dynamicexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D45C0C1D2ACE890050E576 /* dynamicexUITests.m */; };
-		27DAD2811D36AB600063BC6A /* 404Error-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DAD2801D36AB600063BC6A /* 404Error-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,7 @@
 		274495971D30F5E40040A951 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
 		274495981D30F5E40040A951 /* mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouse.png; sourceTree = "<group>"; };
 		274495991D30F5E40040A951 /* tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiger.png; sourceTree = "<group>"; };
+		27B6E9D31D45311D003BA5BD /* 404Error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 404Error.png; sourceTree = "<group>"; };
 		27D45BE41D2ACE890050E576 /* dynamicex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dynamicex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D45BE81D2ACE890050E576 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27D45BEA1D2ACE890050E576 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		27D45C081D2ACE890050E576 /* dynamicexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamicexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D45C0C1D2ACE890050E576 /* dynamicexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dynamicexUITests.m; sourceTree = "<group>"; };
 		27D45C0E1D2ACE890050E576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27DAD2801D36AB600063BC6A /* 404Error-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "404Error-2.png"; path = "../../../Downloads/404Error-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		274495941D30F5620040A951 /* animal */ = {
 			isa = PBXGroup;
 			children = (
-				27DAD2801D36AB600063BC6A /* 404Error-2.png */,
+				27B6E9D31D45311D003BA5BD /* 404Error.png */,
 				274495951D30F5E40040A951 /* cat.png */,
 				274495961D30F5E40040A951 /* dog.png */,
 				274495971D30F5E40040A951 /* elephant.png */,
@@ -271,9 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D45BF71D2ACE890050E576 /* LaunchScreen.storyboard in Resources */,
+				27B6E9D41D45311D003BA5BD /* 404Error.png in Resources */,
 				2744959B1D30F5E40040A951 /* dog.png in Resources */,
 				2744959C1D30F5E40040A951 /* elephant.png in Resources */,
-				27DAD2811D36AB600063BC6A /* 404Error-2.png in Resources */,
 				2744959E1D30F5E40040A951 /* tiger.png in Resources */,
 				27D45BF41D2ACE890050E576 /* Assets.xcassets in Resources */,
 				2744959A1D30F5E40040A951 /* cat.png in Resources */,
